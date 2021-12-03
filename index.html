@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>MuQuiz</title>
+</head>
+
+<body>
+
+  <form id="quiz">
+    <button id="changeBg">Toggle Mode</button>
+    <h1>MuQuiz</h1>
+    <section class="resultContainer" style="display: none;">
+      <div id="result"></div>
+    </section>
+    <ul>
+      <h2>1</h2>
+      <legend id="q1">
+        In what song did Marvin Gaye sing
+        "For only love can conquer hate
+        You know we’ve got to find a way
+        To bring some lovin’ here today…"?
+      </legend>
+      <div class="info"></div>
+      <li>
+        <input type="radio" id="radio1" name="radio1" value="wrong">
+        <label for="radio1">Let's Get It On</label>
+      </li>
+      <li>
+        <input type="radio" id="radio2" name="radio1" value="correct">
+        <label for="radio2">What's Going On</label>
+      </li>
+      <li>
+        <input type="radio" id="radio3" name="radio1" value="wrong">
+        <label for="radio3">It Takes Two</label>
+      </li>
+    </ul>
+    <ul>
+      <h2>2</h2>
+      <legend id="q2">Who was the first known artist to use auto-tune?</legend>
+      <div class="info"></div>
+      <li>
+        <input type="radio" id="radio4" name="radio2" value="correct">
+        <label for="radio4">Cher</label>
+      </li>
+      <li>
+        <input type="radio" id="radio5" name="radio2" value="wrong">
+        <label for="radio5">Mariah Carey</label>
+      </li>
+      <li>
+        <input type="radio" id="radio6" name="radio2" value="wrong">
+        <label for="radio6">Prince</label>
+      </li>
+    </ul>
+    <ul>
+      <h2>3</h2>
+      <legend id="q3">How does the song 'Stayin' Alive' by Bee Gees begin?</legend>
+      <div class="info"></div>
+      <li>
+        <input type="radio" id="radio7" name="radio3" value="wrong">
+        <label for="radio7">"Listen to the ground, There is movement all around, There is something goin' down, And
+          I can feel it"</label>
+      </li>
+      <li>
+        <input type="radio" id="radio8" name="radio3" value="correct">
+        <label for="radio8">"Well, you can tell by the way I use my walk, I'm a woman's man"</label>
+      </li>
+      <li>
+        <input type="radio" id="radio9" name="radio3" value="wrong">
+        <label for="radio9" id="a_text">"My baby moves at midnight. Goes right on till the dawn"</label>
+      </li>
+    </ul>
+    <ul>
+      <h2>4</h2>
+      <legend id="q4">David Bowie had different colored eyes.</legend>
+      <div class="info"></div>
+      <li>
+        <input type="radio" id="radio10" name="radio4" value="wrong">
+        <label for="radio10">True</label>
+      </li>
+      <li>
+        <input type="radio" id="radio11" name="radio4" value="correct">
+        <label for="radio11">False</label>
+      </li>
+    </ul>
+    <ul>
+      <h2>5</h2>
+      <legend id="q5">Elton John refuses to wear a backstage pass at his gigs, because he thinks people should already
+        know who he is.</legend>
+      <div class="info"></div>
+      <li>
+        <input type="radio" id="radio12" name="radio5" value="correct">
+        <label for="radio12">True</label>
+      </li>
+      <li>
+        <input type="radio" id="radio13" name="radio5" value="wrong">
+        <label for="radio13">False</label>
+      </li>
+    </ul>
+    <ul>
+      <h2>6</h2>
+      <legend id="q6">Ray Charles was called "The Big R" and was blind from birth.</legend>
+      <div class="info"></div>
+      <li>
+        <input type="radio" id="radio14" name="radio6" value="wrong">
+        <label for="radio14">True</label>
+      </li>
+      <li>
+        <input type="radio" id="radio15" name="radio6" value="correct">
+        <label for="radio15">False</label>
+      </li>
+    </ul>
+    <ul>
+      <h2>7</h2>
+      <legend id="q7">With songs like 'Ready or Not' and 'Killing Me Softly With His Song', the 90's hip hop group
+        Fugees
+        took
+        the world by storm. What are the names of the three members?</legend>
+      <div class="info"></div>
+      <li>
+        <input type="checkbox" id="option1" name="check1" value="wrong">
+        <label for="option1">will.i.am</label>
+      </li>
+      <li>
+        <input type="checkbox" id="option2" name="check2" value="wrong">
+        <label for="option2">Ja Rule</label>
+      </li>
+      <li>
+        <input type="checkbox" id="option3" name="check3" value="correct">
+        <label for="option3">Lauryn Hill</label>
+      </li>
+      <li>
+        <input type="checkbox" id="option4" name="check4" value="correct">
+        <label for="option4">Pras</label>
+      </li>
+      <li>
+        <input type="checkbox" id="option5" name="check5" value="wrong">
+        <label for="option5">Mary J. Blige</label>
+      </li>
+      <li>
+        <input type="checkbox" id="option6" name="check6" value="correct">
+        <label for="option6">Wyclef Jean</label>
+      </li>
+    </ul>
+    <button id="getResult">Get Results</button>
+
+  </form>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
